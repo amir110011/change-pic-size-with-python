@@ -9,9 +9,9 @@ print(f'image size: {img.size}')
 
 # img.save('resized/new.png')
 
-width=int(input('enter the width: '))
-length=int(input('enter the length: '))
-new_img= img.resize((width,length))
+width = int(input('enter the width: '))
+length = int(input('enter the length: '))
+new_img = img.resize((width, length))
 # If you want to resize images and keep their aspect ratios
 # img.thumbnail((400, 400))
 new_img.save(f'resized/{width} in {length}.jpg')
